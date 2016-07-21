@@ -2,7 +2,6 @@ version: '2'
 services:
   backup-manager:
     image: osixia/backup-manager:0.1.5
-    container_name: backup-manager
     restart: always
     networks:
       - back
